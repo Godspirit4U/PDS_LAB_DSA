@@ -5,7 +5,7 @@ struct node {
     int data;
     struct node *next;
 };
-
+ 
 struct node* create() {
     struct node *head = NULL, *new_node = NULL , *temp = NULL;
     int choice = 1;
@@ -30,7 +30,7 @@ struct node* create() {
     return head;
 }
 
-void display(struct node* head) {
+void display(struct node* head) { 
     struct node *temp = head;
 
     while(temp != NULL) {
